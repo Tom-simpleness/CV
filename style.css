@@ -1,0 +1,130 @@
+body{
+    display: flex;
+    background-color: #d8e5d3;
+    justify-content: center;
+    font-family: sans-serif;
+
+}
+aside{
+    background-color: cornflowerblue;
+    width: 330px;
+}
+
+main{
+    max-width: 660px;
+    min-width: 250px;
+}
+
+.zone{
+    display: flex;
+    padding: 8px 8px;
+}
+
+aside .zone{
+    margin : 20px 10px 10px 0;
+}
+
+h2{
+    margin-top: 25px;
+    color: #717171;
+}
+h1{
+    margin-top: 0;
+    margin-bottom: 5px;
+    color: ghostwhite;
+    opacity: 0.95;
+}
+h3{
+    margin-top: 0;
+    margin-bottom: 0;
+    color: ghostwhite;
+    font-size: small;
+}
+h4{
+    color: #717171;
+}
+h5{
+    color: #196e8b;
+    font-weight: lighter;
+}
+
+.profil{
+    background-image: url("img/le-loup-de-wall-street-1_jir_415864_0.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+}
+.name{
+    padding-top: 175px;
+    margin-left: 120px;
+}
+
+.name p{
+    font-weight: bold;
+}
+
+aside p{
+    color: ghostwhite;
+    margin-top: 0;
+    font-size: small;
+    font-weight: lighter;
+    opacity: 0.9;
+    margin-bottom: 25px;
+}
+
+aside .fas, aside .far{
+    width: 17px;
+    margin: 5px 30px;
+    color: #FFFFFF;
+}
+
+.trait{
+    border-top: solid darkgrey 1.5px;
+    width: 95%;
+    border-color: mediumslateblue ;
+}
+
+div{
+    width: 100%;
+}
+
+main section{
+    background-color: ghostwhite;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 3px darkgrey;
+}
+
+main .fas{
+    font-size: 35px;
+    margin-left: 25px;
+    margin-top: 25px;
+    margin-right: 25px;
+    color: #717171;
+}
+
+main p{
+    color: #717171;
+}
+
+main .trait{
+    border-color: #717171;
+}
+
+.interet .fas{
+    color: #196e8b;
+    margin-bottom: 15px;
+}
+.interet .fab{
+    color: #196e8b;
+    font-size: 35px;
+    margin-left: 25px;
+}
+
+.competence p{
+    margin-bottom: 5px;
+}
+
+.slider{
+    margin-bottom: 10px;
+}
